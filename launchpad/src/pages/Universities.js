@@ -25,6 +25,8 @@ import { getUniversities } from '../redux/actions/universities';
 
 import countriesList from '../config/countries.json';
 
+import '../assets/App.css';
+
 const columns = [
   { 
     id: 'country', 

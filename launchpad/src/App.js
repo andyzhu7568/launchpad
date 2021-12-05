@@ -9,8 +9,8 @@ function App() {
     <BrowserRouter>
       <Header />
       <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route exact path='/postallookup' element={<PostalLookUp />} />
+        <Route exact path='/posts/*' element={<Home />} />
+        <Route exact path='/postallookup' element={<PostalLookUp />} 
         <Route exact path='/universities' element={<Universities />} />
         <Route path='*' element={<Home />} />
       </Routes>
