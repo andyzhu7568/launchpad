@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid'
@@ -21,6 +22,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import countriesList from '../config/countries.json';
 
 import { getPlace } from '../redux/actions/postalcode'
+import '../assets/App.css';
 
 const fakePlace = {
   "post code": "90210",
