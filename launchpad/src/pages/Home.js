@@ -1,9 +1,7 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-
 import PostLists from '../components/PostLists';
 import PostAdd from '../components/PostAdd';
-
 import '../assets/App.css';
 
 function Home() {
